@@ -21,5 +21,32 @@ git clone https://github.com/your-username/multisynq-docker-nodes.git
 cd multisynq-docker-nodes
 
 # Make sure scripts are executable
-chmod +x run_multi_synchronizers.sh stop_all_synchronizers.sh
+
+chmod +x run-multinodes.sh
+
+# ⚙️ Configuration
+You need 5 unique wallet addresses and 5 unique SYNQ keys.
+
+nano run-multinodes.sh
+
+# ▶️ Start Nodes
+To start 5 synchronizer nodes, run the script:
+
+
+./run-multinodes.sh
+
+# ⏹ Stop Nodes
+To stop all the running synchronizer containers:
+
+docker ps -a | grep synchronizer-cli | awk '{print $1}' | xargs docker stop
+
+# 🧼 Remove Stopped Containers
+To clean up stopped containers:
+
+docker ps -a | grep synchronizer-cli | awk '{print $1}' | xargs docker rm -f
+
+# 🪵 View Logs
+To view logs of a particular node:
+
+docker logs synchronizer-cli-0  # Replace 0 with the node number (0–4)
 
