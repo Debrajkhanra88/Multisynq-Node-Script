@@ -15,9 +15,8 @@ Make sure you have the following installed:
 
 ## 🚀 Installation
 
-# Clone the repository
+## Clone the repository
 
-```bash
 git clone https://github.com/your-username/multisynq-docker-nodes.git
 cd multisynq-docker-nodes
 
@@ -25,10 +24,8 @@ cd multisynq-docker-nodes
 
 ## Make sure scripts are executable
 
-```bash
 chmod +x run-multinodes.sh
 
----
 
 # ⚙️ Configuration
 You need 5 unique wallet addresses and 5 unique SYNQ keys.
