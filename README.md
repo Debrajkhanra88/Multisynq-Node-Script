@@ -25,7 +25,7 @@ cd Multisynq-Node-Script
 
 ## Make sure scripts are executable
 
-chmod +x run-multinodes.sh
+chmod +x run_multi_synchronizers.sh
 
 
 # ⚙️ Configuration
