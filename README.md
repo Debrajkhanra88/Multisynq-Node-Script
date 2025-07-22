@@ -18,7 +18,7 @@ Make sure you have the following installed:
 ## Clone the repository
 
 ```bash
-git clone https://github.com/your-username/multisynq-docker-nodes.git
+git clone https://github.com/Debrajkhanra88/Multisynq-Node-Script.git
 cd multisynq-docker-nodes
 
 ---
