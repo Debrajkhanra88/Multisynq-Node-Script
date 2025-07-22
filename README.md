@@ -19,7 +19,7 @@ Make sure you have the following installed:
 
 ```bash
 git clone https://github.com/Debrajkhanra88/Multisynq-Node-Script.git
-cd multisynq-docker-nodes
+cd Multisynq-Node-Script
 
 ---
 
