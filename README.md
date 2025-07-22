@@ -31,13 +31,13 @@ chmod +x run_multi_synchronizers.sh
 # ⚙️ Configuration
 You need 5 unique wallet addresses and 5 unique SYNQ keys.
 
-nano run-multinodes.sh
+nano run_multi_synchronizers.sh
 
 # ▶️ Start Nodes
 To start 5 synchronizer nodes, run the script:
 
 
-./run-multinodes.sh
+./run_multi_synchronizers.sh
 
 # ⏹ Stop Nodes
 To stop all the running synchronizer containers:
