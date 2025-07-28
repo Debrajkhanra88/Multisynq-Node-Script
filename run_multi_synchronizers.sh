@@ -13,11 +13,11 @@ MAX_RETRIES=3
 SYNC_NAMES=("synq-31c43a1df276" "synq-31c43a1df277" "synq-31c43a1df278" "synq-31c43a1df279" "synq-31c43a1df280")
 
 # ✅ Predefined keys
-SYNQ_KEYS=("key-node1-dc1c60f6-0d87-4a3b-9ce4-73f71fd624fa" \
-           "key-node2-bf831a9c-f9ef-49f2-998a-7c4ff923a25d" \
-           "key-node3-e733c4ac-4e2b-4140-ae14-b351d0bbb8f7" \
-           "key-node4-d0a566d6-868b-4777-b021-5e4be4df25ac" \
-           "key-node5-8d0804dc-291f-475c-8a6e-e2384c059fae")
+SYNQ_KEYS=("dc1c60f6-0d87-4a3b-9ce4-73f71fd624fa" \
+           "bf831a9c-f9ef-49f2-998a-7c4ff923a25d" \
+           "e733c4ac-4e2b-4140-ae14-b351d0bbb8f7" \
+           "d0a566d6-868b-4777-b021-5e4be4df25ac" \
+           "8d0804dc-291f-475c-8a6e-e2384c059fae")
 
 # ✅ Wallets
 WALLETS=(
