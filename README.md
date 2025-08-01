@@ -43,15 +43,15 @@ This repository provides scripts to deploy **5 Multisynq synchronizer nodes** wi
   ```
 
 5. **🛑 Stop All Nodes**:
-   ```bash
+  ```bash
   ./stop_nodes.sh
   ```
 
 6. **📜 View Logs for Each Node**:
    ```bash
-  ./logs_nodes.sh 1   # Logs for node 1
-  ./logs_nodes.sh 3   # Logs for node 3
-  ```
+   ./logs_nodes.sh 1   # Logs for node 1
+   ./logs_nodes.sh 3   # Logs for node 3
+   ```
   Example:
   ```bash
   docker logs -f synchronizer-cli-1
