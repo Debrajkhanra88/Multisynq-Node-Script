@@ -38,7 +38,7 @@ This repository provides scripts to deploy **5 Multisynq synchronizer nodes** wi
   ```
 
 4. **▶️ Start All Nodes**:
-   ``bash
+  ```bash
   ./run_multi_synchronizers.sh
   ```
 
